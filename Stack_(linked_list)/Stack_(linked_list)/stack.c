@@ -50,6 +50,7 @@ void show(Stack* stack) {
 
 void main()
 {
+	printf("Welcome message");
 	Stack s;
 	s.top = NULL;
 	push(&s, 7);
